@@ -12,7 +12,7 @@ class Program
 
         while (guess != magicNumber)
         {
-            Console.Write("What is your guess? ");
+            Console.Write("What is your magic number? ");
             guess = int.Parse(Console.ReadLine());
 
             if (magicNumber > guess)
