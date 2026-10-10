@@ -49,7 +49,7 @@ namespace EternalQuest
         //Creativity: level and title
         static void DisplayScore(int score)
         {
-            int level = score / 00 + 1;
+            int level = score / 100 + 1;
             Console.WriteLine($"You have {score} points. (Level {level} - {GetLevelTitle(level)})");
         }
 
